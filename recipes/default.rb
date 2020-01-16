@@ -11,6 +11,7 @@ include_recipe 'apt'
 # Packages apt-get
 apt_update
 package 'nginx'
+package 'npm'
 
 # services
 service 'nginx' do
